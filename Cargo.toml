@@ -1,13 +1,11 @@
 [package]
-name = "iyes_bevy_extras"
+name = "utils"
 version = "0.1.0"
 edition = "2021"
 publish = false
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
-bevy = { version = "0.13", default-features = false }
+bevy = { version = "0.13.2", default-features = false }
 
 [features]
 default = [ "2d" ]
